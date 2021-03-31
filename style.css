@@ -1,0 +1,81 @@
+body {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(110, 110, 110);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+div.container {
+  max-width: 500px;
+  border-radius: 20px;
+  padding: 30px 20px;
+  margin: 20px auto;
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+
+div.search-bar {
+  padding: 15px 0 0;
+}
+
+div.row {
+  justify-content: center;
+}
+
+img.icon-now {
+  max-width: 300px;
+}
+
+div.percipitation,
+div.wind {
+  padding-top: 30px;
+}
+
+p.future-temp {
+  margin-bottom: 0;
+}
+
+img.icon-s {
+  max-width: 50px;
+  margin-bottom: 5px;
+}
+
+div.card-group {
+  display: inline-flex;
+  width: 27rem;
+}
+
+div.card {
+  color: white;
+  background-color: rgb(126, 144, 229);
+  border-radius: 20px;
+  box-shadow: 5px 8px 5px 1px rgba(0, 0, 255, 0.1);
+}
+
+div.footer {
+  margin-top: 30px;
+}
