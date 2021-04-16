@@ -91,7 +91,7 @@ unitFahrenheit.addEventListener("click", fahrenheit);
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
-let currentLocationButton = document.querySelector("#current-location-button");
-currentLocationButton.addEventListener("click", findCurrentLocation);
+//let currentLocationButton = document.querySelector("#current-location-button");
+//currentLocationButton.addEventListener("click", findCurrentLocation);
 
 searchCity("Amsterdam");
