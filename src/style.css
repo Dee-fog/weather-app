@@ -12,10 +12,6 @@ h2 {
   margin: 0 auto;
 }
 
-h3 {
-  font-size: 60px;
-}
-
 a {
   text-decoration: none;
   color: rgb(110, 110, 110);
@@ -23,6 +19,15 @@ a {
 
 a:hover {
   color: rgb(0, 0, 0);
+}
+
+span.units {
+  position: relative;
+  top: -30px;
+}
+span.temp {
+  font-size: 60px;
+  font-weight: 500;
 }
 
 div.container {
